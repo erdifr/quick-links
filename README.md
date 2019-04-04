@@ -46,6 +46,15 @@ Currently this plugin has six (6) link slots (same as the original). Below is a 
 - ```v0.0.1-alpha``` - Current version.
 
 
+## Screenshots
+
+Menu view
+![Screenshot 1](https://github.com/erdifr/quick-links/blob/master/quick-links_screenshot.png)
+
+Dashboard view (fresh install)
+![Screenshot 2](https://github.com/erdifr/quick-links/blob/master/quick-links_screenshot-2.png)
+
+
 ## Credit
 
 All inspiriation for this plugin came from [Bludit](https://github.com/bludit/bludit) issue [```#910``` - [Idea] Quick link settings](https://github.com/bludit/bludit/issues/910) and from the [Bludit](https://github.com/bludit/bludit) admin dashboard [```Quick Links``` section](https://github.com/bludit/bludit/blob/master/bl-kernel/admin/views/dashboard.php).

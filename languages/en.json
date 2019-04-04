@@ -1,0 +1,14 @@
+{
+	"plugin-data":
+	{
+		"name": "Quick Links",
+		"description": "Adds configurable quick links to the admin dashboard"
+	},
+	"quick-links": "Quick Links",
+	"link-1": "Link 1",
+	"link-2": "Link 2",
+	"link-3": "Link 3",
+	"link-4": "Link 4",
+	"link-5": "Link 5",
+	"link-6": "Link 6"
+}

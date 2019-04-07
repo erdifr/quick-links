@@ -30,11 +30,7 @@ class pluginQuickLinks extends Plugin {
 		$html .= '<div>';
 		$html .= '<label>'.$L->get('link-1').'</label>';
 		$html .= '<select id="jsqlLink1" name="qlLink1">';
-		if (!empty($qlLink1)) {
-			$html .= '<option value="'.$qlLink1.'">'.$qlLink1.'</option>';
-		} else {
-			$html .= '<option value="DISABLE">DISABLE</option>';
-		}
+		$html .= '<option value="'.$qlLink1.'">'.$L->get('select-a-link').'</option>';
 		$html .= '<option value="qlBluditDocs">Bludit Docs</option>';
 		$html .= '<option value="qlBluditForum">Bludit Forum</option>';
 		$html .= '<option value="qlBluditSupport">Bludit Support</option>';
@@ -57,11 +53,7 @@ class pluginQuickLinks extends Plugin {
 		$html .= '<div>';
 		$html .= '<label>'.$L->get('link-2').'</label>';
 		$html .= '<select id="jsqlLink2" name="qlLink2">';
-		if (!empty($qlLink2)) {
-			$html .= '<option value="'.$qlLink2.'">'.$qlLink2.'</option>';
-		} else {
-			$html .= '<option value="DISABLE">DISABLE</option>';
-		}
+		$html .= '<option value="'.$qlLink2.'">'.$L->get('select-a-link').'</option>';
 		$html .= '<option value="qlBluditDocs">Bludit Docs</option>';
 		$html .= '<option value="qlBluditForum">Bludit Forum</option>';
 		$html .= '<option value="qlBluditSupport">Bludit Support</option>';
@@ -84,11 +76,7 @@ class pluginQuickLinks extends Plugin {
 		$html .= '<div>';
 		$html .= '<label>'.$L->get('link-3').'</label>';
 		$html .= '<select id="jsqlLink3" name="qlLink3">';
-		if (!empty($qlLink3)) {
-			$html .= '<option value="'.$qlLink3.'">'.$qlLink3.'</option>';
-		} else {
-			$html .= '<option value="DISABLE">DISABLE</option>';
-		}
+		$html .= '<option value="'.$qlLink3.'">'.$L->get('select-a-link').'</option>';
 		$html .= '<option value="qlBluditDocs">Bludit Docs</option>';
 		$html .= '<option value="qlBluditForum">Bludit Forum</option>';
 		$html .= '<option value="qlBluditSupport">Bludit Support</option>';
@@ -111,11 +99,7 @@ class pluginQuickLinks extends Plugin {
 		$html .= '<div>';
 		$html .= '<label>'.$L->get('link-4').'</label>';
 		$html .= '<select id="jsqlLink4" name="qlLink4">';
-		if (!empty($qlLink4)) {
-			$html .= '<option value="'.$qlLink4.'">'.$qlLink4.'</option>';
-		} else {
-			$html .= '<option value="DISABLE">DISABLE</option>';
-		}
+		$html .= '<option value="'.$qlLink4.'">'.$L->get('select-a-link').'</option>';
 		$html .= '<option value="qlBluditDocs">Bludit Docs</option>';
 		$html .= '<option value="qlBluditForum">Bludit Forum</option>';
 		$html .= '<option value="qlBluditSupport">Bludit Support</option>';
@@ -138,11 +122,7 @@ class pluginQuickLinks extends Plugin {
 		$html .= '<div>';
 		$html .= '<label>'.$L->get('link-5').'</label>';
 		$html .= '<select id="jsqlLink5" name="qlLink5">';
-		if (!empty($qlLink5)) {
-			$html .= '<option value="'.$qlLink5.'">'.$qlLink5.'</option>';
-		} else {
-			$html .= '<option value="DISABLE">DISABLE</option>';
-		}
+		$html .= '<option value="'.$qlLink5.'">'.$L->get('select-a-link').'</option>';
 		$html .= '<option value="qlBluditDocs">Bludit Docs</option>';
 		$html .= '<option value="qlBluditForum">Bludit Forum</option>';
 		$html .= '<option value="qlBluditSupport">Bludit Support</option>';
@@ -165,11 +145,7 @@ class pluginQuickLinks extends Plugin {
 		$html .= '<div>';
 		$html .= '<label>'.$L->get('link-6').'</label>';
 		$html .= '<select id="jsqlLink6" name="qlLink6">';
-		if (!empty($qlLink6)) {
-			$html .= '<option value="'.$qlLink6.'">'.$qlLink6.'</option>';
-		} else {
-			$html .= '<option value="DISABLE">DISABLE</option>';
-		}
+		$html .= '<option value="'.$qlLink6.'">'.$L->get('select-a-link').'</option>';
 		$html .= '<option value="qlBluditDocs">Bludit Docs</option>';
 		$html .= '<option value="qlBluditForum">Bludit Forum</option>';
 		$html .= '<option value="qlBluditSupport">Bludit Support</option>';
